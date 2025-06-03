@@ -1,11 +1,9 @@
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './components/App'; // Corrected path
+import { App } from './components/App'; // <-- CHANGED LINE
 import { AuthProvider } from './contexts/AuthContext';
 import { BookingProvider } from './contexts/BookingContext';
 import { DataProvider } from './contexts/DataContext';
-
 
 const rootElement = document.getElementById('root');
 if (!rootElement) {
